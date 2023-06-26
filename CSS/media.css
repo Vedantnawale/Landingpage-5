@@ -1,0 +1,38 @@
+@media screen and (max-width:465px) {
+    .nav-bar i {
+        display: flex;
+        justify-content:start;
+        margin: 10px;
+    }
+    .nav-bar ul {
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+        /* margin-left: 80px; */
+    }
+    .left-side-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .left-side-1 img{
+        width: 30px;
+        height: 30px;
+    }
+    .left-side-2 h5{
+        text-align: center;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-images-u{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-images-d{
+        display: flex;
+        flex-direction: column;
+    }
+}
